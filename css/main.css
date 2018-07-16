@@ -1,0 +1,45 @@
+html,body {
+    height: 100%;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* cover style */
+
+#cover {
+    background: #222 url('https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/22089324_1802490486447334_2718572406936367538_n.jpg?_nc_cat=0&oh=15991496daa2c712dea2b9f477c29c16&oe=5BCD7DE6') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 100%;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+#about {
+    background: url('https://scontent.ftpa1-1.fna.fbcdn.net/v/t1.0-9/13935124_1335790029784051_5268492603589555062_n.jpg?_nc_cat=0&oh=e0282493db3b87bfe9eba51273351d72&oe=5BCF77C8') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
